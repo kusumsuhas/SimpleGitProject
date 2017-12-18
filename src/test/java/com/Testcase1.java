@@ -5,7 +5,12 @@ import org.testng.annotations.Test;
 public class Testcase1 {
 
 	@Test
-	public void testcase() {
-		System.out.println("Test case is Passed");
+	public void TestMethod1() {
+		System.out.println("Test Method is Passed");
+	}
+	
+	@Test
+	public void TestMethod2() {
+		System.out.println("Test Method 2 is Passed");
 	}
 }
