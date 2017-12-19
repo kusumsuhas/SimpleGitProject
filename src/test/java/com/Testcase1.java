@@ -11,4 +11,7 @@ public class Testcase1 {
 	
 	@Test
 	public void TestMethod2() {
-		System.out.println("Test Method 2 is Updated
+		System.out.println("Test Method 2 is Updated;");
+	}	
+	
+}
