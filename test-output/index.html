@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Home\AppData\Local\Temp\testng-eclipse-1592991827\testng-customsuite.xml</span>
+                    <span>C:\Users\Home\AppData\Local\Temp\testng-eclipse-1962570325\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="testcase">testcase</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="TestMethod1">TestMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="TestMethod2">TestMethod2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +135,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testcase">
-                  </a> <!-- testcase -->
-                  <span class="method-name">testcase</span>
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod1">
+                  </a> <!-- TestMethod1 -->
+                  <span class="method-name">TestMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod2">
+                  </a> <!-- TestMethod2 -->
+                  <span class="method-name">TestMethod2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Home\AppData\Local\Temp\testng-eclipse-1592991827\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Home\AppData\Local\Temp\testng-eclipse-1962570325\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testcase')
+data.setCell(0, 1, 'OpenBrowser')
 data.setCell(0, 2, 'com.Testcase1')
-data.setCell(0, 3, 15);
+data.setCell(0, 3, 12596);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestMethod1')
+data.setCell(1, 2, 'com.Testcase1')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestMethod2')
+data.setCell(2, 2, 'com.Testcase1')
+data.setCell(2, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,8 +253,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.Testcase1</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testcase</span>
+                <span class="method-name">OpenBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMethod1</span>
+                <span class="method-start">12599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMethod2</span>
+                <span class="method-start">12601 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
