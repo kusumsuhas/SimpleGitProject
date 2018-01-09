@@ -1,0 +1,8 @@
+2017-12-20 19:18:17 INFO  MasterClass:52 - Properties are loaded
+2017-12-20 19:18:20 INFO  MasterClass:73 - IE browser selected
+2017-12-20 19:18:21 INFO  MasterClass:83 - Page loaded
+2017-12-20 19:18:26 INFO  LeadsPageTest:27 - LeadsPageTestcase - Loggged in successfully
+2017-12-20 19:18:32 INFO  LeadsPageTest:29 - LeadsPageTest - Navigated to LeadsPage
+2017-12-20 19:18:32 INFO  LeadsPageTest:34 - Displaying Leads information: 
+2017-12-20 19:18:32 INFO  LeadsPageTest:35 -  ----------------------------------- 
+2017-12-20 19:18:49 INFO  LeadsPageTest:42 - Browser is closed

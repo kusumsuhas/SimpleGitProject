@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Home\AppData\Local\Temp\testng-eclipse-1962570325\testng-customsuite.xml</span>
+                    <span>C:\Users\Home\AppData\Local\Temp\testng-eclipse--28636327\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="TestMethod1">TestMethod1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Testcase1" hash-for-method="TestMethod2">TestMethod2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testcases.LeadsPageTest" hash-for-method="DisplayLeads">DisplayLeads</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,28 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Testcase1</span>
+              <span class="class-name">com.testcases.LeadsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="OpenBrowser">
-                  </a> <!-- OpenBrowser -->
-                  <span class="method-name">OpenBrowser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestMethod1">
-                  </a> <!-- TestMethod1 -->
-                  <span class="method-name">TestMethod1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestMethod2">
-                  </a> <!-- TestMethod2 -->
-                  <span class="method-name">TestMethod2</span>
+                  <a name="DisplayLeads">
+                  </a> <!-- DisplayLeads -->
+                  <span class="method-name">DisplayLeads</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Home\AppData\Local\Temp\testng-eclipse-1962570325\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Home\AppData\Local\Temp\testng-eclipse--28636327\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Testcase1&quot;/&gt;
+      &lt;class name=&quot;com.testcases.LeadsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -208,24 +184,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'OpenBrowser')
-data.setCell(0, 2, 'com.Testcase1')
-data.setCell(0, 3, 12596);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestMethod1')
-data.setCell(1, 2, 'com.Testcase1')
-data.setCell(1, 3, 1);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestMethod2')
-data.setCell(2, 2, 'com.Testcase1')
-data.setCell(2, 3, 1);
+data.setCell(0, 1, 'DisplayLeads')
+data.setCell(0, 2, 'com.testcases.LeadsPageTest')
+data.setCell(0, 3, 16204);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,19 +219,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Testcase1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">OpenBrowser</span>
+              <div class="chronological-class-name">com.testcases.LeadsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadLogProp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">305 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initExtent(public void com.testcases.LeadsPageTest.DisplayLeads())</span>
+                <span class="method-start">15554 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestMethod1</span>
-                <span class="method-start">12599 ms</span>
+                <span class="method-name">DisplayLeads</span>
+                <span class="method-start">15557 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TestMethod2</span>
-                <span class="method-start">12601 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DisplayLeads status=SUCCESS method=LeadsPageTest.DisplayLeads()[pri:0, instance:com...)</span>
+                <span class="method-start">31762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31774 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownExtent</span>
+                <span class="method-start">32314 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

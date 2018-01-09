@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12635" started-at="2017-12-19T06:07:21Z" finished-at="2017-12-19T06:07:34Z">
+  <suite name="Default suite" duration-ms="32467" started-at="2017-12-20T13:48:17Z" finished-at="2017-12-20T13:48:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12635" started-at="2017-12-19T06:07:21Z" finished-at="2017-12-19T06:07:34Z">
-      <class name="com.Testcase1">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Testcase1@58651fd0]" name="OpenBrowser" duration-ms="12596" started-at="2017-12-19T11:37:21Z" finished-at="2017-12-19T11:37:34Z">
+    <test name="Default test" duration-ms="32467" started-at="2017-12-20T13:48:17Z" finished-at="2017-12-20T13:48:50Z">
+      <class name="com.testcases.LeadsPageTest">
+        <test-method status="PASS" signature="loadLogProp()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="loadLogProp" is-config="true" duration-ms="303" started-at="2017-12-20T19:18:17Z" finished-at="2017-12-20T19:18:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="TestMethod1()[pri:0, instance:com.Testcase1@58651fd0]" name="TestMethod1" duration-ms="1" started-at="2017-12-19T11:37:34Z" finished-at="2017-12-19T11:37:34Z">
+        </test-method> <!-- loadLogProp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="init" is-config="true" duration-ms="15228" started-at="2017-12-20T19:18:17Z" finished-at="2017-12-20T19:18:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMethod1 -->
-        <test-method status="PASS" signature="TestMethod2()[pri:0, instance:com.Testcase1@58651fd0]" name="TestMethod2" duration-ms="1" started-at="2017-12-19T11:37:34Z" finished-at="2017-12-19T11:37:34Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="initExtent" is-config="true" duration-ms="3" started-at="2017-12-20T19:18:32Z" finished-at="2017-12-20T19:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testcases.LeadsPageTest.DisplayLeads()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMethod2 -->
-      </class> <!-- com.Testcase1 -->
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="DisplayLeads()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="DisplayLeads" duration-ms="16204" started-at="2017-12-20T19:18:32Z" finished-at="2017-12-20T19:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayLeads -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="getResult" is-config="true" duration-ms="11" started-at="2017-12-20T19:18:49Z" finished-at="2017-12-20T19:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DisplayLeads status=SUCCESS method=LeadsPageTest.DisplayLeads()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="540" started-at="2017-12-20T19:18:49Z" finished-at="2017-12-20T19:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownExtent()[pri:0, instance:com.testcases.LeadsPageTest@53b32d7]" name="tearDownExtent" is-config="true" duration-ms="456" started-at="2017-12-20T19:18:49Z" depends-on-methods="com.testcases.LeadsPageTest.tearDown" finished-at="2017-12-20T19:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- com.testcases.LeadsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
